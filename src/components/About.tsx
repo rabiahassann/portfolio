@@ -21,13 +21,13 @@ export function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-            className="relative mx-auto w-full max-w-sm"
+            className="relative mx-auto w-full max-w-md"
           >
             <div className="photo-frame overflow-hidden rounded-[24px]">
               <img
                 src={profileImage}
                 alt={`${profile.name} portrait`}
-                className="aspect-[4/5] w-full object-cover"
+                className="aspect-[4/5] w-full object-cover object-[center_20%]"
               />
             </div>
             <motion.div
