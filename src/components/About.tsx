@@ -57,7 +57,7 @@ export function About() {
               initial="hidden"
               whileInView="show"
               viewport={{ once: true, margin: '-40px' }}
-              className="mt-8 grid grid-cols-3 gap-3"
+              className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4"
             >
               {stats.map((stat) => (
                 <motion.div

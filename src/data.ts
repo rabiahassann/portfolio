@@ -4,7 +4,6 @@ export const navLinks = [
   { label: 'Journey', href: '#experience' },
   { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Reviews', href: '#testimonials' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -28,8 +27,9 @@ export const profile = {
 }
 
 export const stats = [
-  { value: '50+', label: 'Projects Built' },
+  { value: '10+', label: 'Projects Built' },
   { value: '4+', label: 'Years in Laravel' },
+  { value: '5', label: 'Happy Clients' },
   { value: '5+', label: 'Technologies' },
 ]
 
@@ -201,23 +201,5 @@ export const education = [
     period: 'Ongoing',
     detail:
       'Modern PHP practices, API design, cloud deployments, Docker, and frontend frameworks (Vue.js / Angular).',
-  },
-]
-
-export const testimonials = [
-  {
-    name: 'Project Stakeholder',
-    role: 'E-Commerce Client',
-    text: 'Rabia delivered a clean Laravel storefront on time, with solid communication and attention to product details that mattered for launch.',
-  },
-  {
-    name: 'Team Member',
-    role: 'Frontend Developer',
-    text: 'As a team lead she made code reviews clear and actionable. We shipped faster because blockers were resolved early.',
-  },
-  {
-    name: 'Product Owner',
-    role: 'SaaS Startup',
-    text: 'Reliable backend ownership: APIs, integrations, and performance fixes without drama. Exactly what a growing product needs.',
   },
 ]
