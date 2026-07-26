@@ -23,10 +23,10 @@ const hasGithub =
   !profile.github.endsWith('github.com')
 
 const floatingTags = [
-  { label: 'Laravel', x: '-8%', y: '12%', delay: 0 },
-  { label: 'Vue.js', x: '78%', y: '8%', delay: 0.15 },
-  { label: 'PHP', x: '-4%', y: '68%', delay: 0.3 },
-  { label: 'MySQL', x: '82%', y: '62%', delay: 0.45 },
+  { label: 'Laravel', side: 'left' as const, top: '14%', delay: 0 },
+  { label: 'Vue.js', side: 'right' as const, top: '4%', delay: 0.15 },
+  { label: 'PHP', side: 'left' as const, top: '58%', delay: 0.3 },
+  { label: 'MySQL', side: 'right' as const, top: '72%', delay: 0.45 },
 ]
 
 const codeLines = [
@@ -178,7 +178,7 @@ export function Hero() {
           variants={scaleIn}
           initial="hidden"
           animate="show"
-          className="relative mx-auto w-full max-w-lg"
+          className="relative mx-auto w-full max-w-lg px-10 sm:px-12"
         >
           <div className="absolute -inset-8 rounded-[40px] bg-gradient-to-br from-cyan-500/25 via-indigo-500/10 to-purple-500/25 blur-3xl" />
 
@@ -201,8 +201,10 @@ export function Hero() {
                   ease: 'easeInOut',
                 },
               }}
-              style={{ left: tag.x, top: tag.y }}
-              className="absolute z-20 rounded-[14px] border border-white/15 bg-[#0b0b14]/90 px-3 py-1.5 text-xs font-semibold text-cyan-200 shadow-lg backdrop-blur-md"
+              style={{ top: tag.top }}
+              className={`pointer-events-none absolute z-20 hidden rounded-[14px] border border-white/15 bg-[#0b0b14]/90 px-3 py-1.5 text-xs font-semibold text-cyan-200 shadow-lg backdrop-blur-md sm:block ${
+                tag.side === 'left' ? 'left-0' : 'right-0'
+              }`}
             >
               {tag.label}
             </motion.span>
