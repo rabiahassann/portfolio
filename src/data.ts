@@ -56,7 +56,7 @@ export const experience = [
     role: 'Laravel Developer & Team Lead',
     company: 'Alpha Array Technologies',
     location: 'Remote, United States',
-    period: 'Apr 2024',
+    period: 'Apr 2024 to May 2025',
     current: false,
     description:
       'Developing and maintaining Laravel web applications and RESTful APIs. Leading developers through task assignment, code reviews, and mentoring while optimizing database queries and backend performance.',
