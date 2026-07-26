@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rabia — Resume | Senior Laravel Developer & Team Lead</title>
+    <style>
+      :root {
+        --ink: #0f172a;
+        --muted: #64748b;
+        --line: #e2e8f0;
+        --accent: #0ea5e9;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, sans-serif;
+        color: var(--ink);
+        background: #f8fafc;
+        line-height: 1.5;
+      }
+      .wrap {
+        max-width: 820px;
+        margin: 24px auto;
+        background: #fff;
+        padding: 40px 48px;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        box-shadow: 0 10px 40px rgba(15, 23, 42, 0.06);
+      }
+      h1 { margin: 0; font-size: 2rem; }
+      .title { color: var(--accent); font-weight: 700; margin-top: 4px; }
+      .meta { color: var(--muted); font-size: 0.92rem; margin-top: 10px; }
+      .meta a { color: var(--accent); text-decoration: none; }
+      h2 {
+        margin: 28px 0 10px;
+        font-size: 0.85rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--accent);
+        border-bottom: 2px solid var(--line);
+        padding-bottom: 6px;
+      }
+      .job { margin-bottom: 16px; }
+      .job-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+      .job strong { font-size: 1.02rem; }
+      .job .co { color: var(--accent); font-weight: 600; }
+      .job .when { color: var(--muted); font-size: 0.88rem; }
+      ul { margin: 6px 0 0; padding-left: 18px; }
+      li { margin: 4px 0; }
+      .skills { display: flex; flex-wrap: wrap; gap: 8px; }
+      .skills span {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 4px 10px;
+        font-size: 0.85rem;
+      }
+      .actions {
+        display: flex;
+        gap: 10px;
+        margin: 16px auto 0;
+        max-width: 820px;
+        padding: 0 8px 24px;
+      }
+      .actions button, .actions a {
+        border: 0;
+        border-radius: 10px;
+        padding: 10px 16px;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: inherit;
+      }
+      .print { background: var(--accent); color: #fff; }
+      .back { background: #e2e8f0; color: var(--ink); }
+      @media print {
+        body { background: #fff; }
+        .actions { display: none; }
+        .wrap { box-shadow: none; border: 0; margin: 0; max-width: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="actions">
+      <button class="print" onclick="window.print()">Download / Print PDF</button>
+      <a class="back" href="/">← Back to Portfolio</a>
+    </div>
+    <main class="wrap">
+      <h1>Rabia</h1>
+      <div class="title">Senior Laravel Developer &amp; Team Lead</div>
+      <div class="meta">
+        Islamabad, Pakistan · Remote<br />
+        <a href="mailto:rabialps15@gmail.com">rabialps15@gmail.com</a> ·
+        WhatsApp: 0316 5639096
+      </div>
+
+      <h2>Summary</h2>
+      <p>
+        Laravel developer and team lead with 5+ years of experience building
+        production web apps, e-commerce platforms, and SaaS products. Strong in
+        PHP/Laravel APIs, MySQL, integrations, and mentoring development teams.
+      </p>
+
+      <h2>Experience</h2>
+      <div class="job">
+        <div class="job-head">
+          <div>
+            <strong>Laravel Developer &amp; Team Lead</strong><br />
+            <span class="co">Alpha Array Technologies</span> · Remote, United States
+          </div>
+          <div class="when">Apr 2024 — Present</div>
+        </div>
+        <ul>
+          <li>Build and maintain Laravel applications and RESTful APIs</li>
+          <li>Lead developers via task assignment, code reviews, and mentoring</li>
+          <li>Optimize database queries and backend performance</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head">
+          <div>
+            <strong>Senior Laravel Developer &amp; Team Lead</strong><br />
+            <span class="co">SolOchoicez Pvt. (Ltd)</span> · Islamabad, Pakistan
+          </div>
+          <div class="when">Jul 2025 — Jul 15, 2026</div>
+        </div>
+        <ul>
+          <li>Led scalable Laravel apps, REST APIs, and secure backend architecture</li>
+          <li>Managed workflows, code reviews, mentoring, and delivery standards</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head">
+          <div>
+            <strong>Sr Laravel Developer</strong><br />
+            <span class="co">Logic Powered Solutions</span> · Islamabad, Pakistan
+          </div>
+          <div class="when">Dec 2022 — Nov 2023</div>
+        </div>
+        <ul>
+          <li>Laravel apps, Blade UIs, payment gateways, MySQL/Eloquent</li>
+          <li>Testing, debugging, and performance optimization</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head">
+          <div>
+            <strong>Laravel Developer</strong><br />
+            <span class="co">Alright Tech</span> · Rawalpindi, Pakistan
+          </div>
+          <div class="when">Jan 2021 — Aug 2022</div>
+        </div>
+        <ul>
+          <li>Laravel/PHP apps, REST APIs, MySQL optimization, third-party services</li>
+        </ul>
+      </div>
+
+      <h2>Selected Projects</h2>
+      <ul>
+        <li><strong>Karatepure</strong> — Jewellery e-commerce (Laravel)</li>
+        <li><strong>Remembadis</strong> — Brain-training SaaS</li>
+        <li><strong>Rigz 2 Riche$</strong> — Luxury fashion commerce</li>
+        <li><strong>Bright Minds</strong> — EdTech learning platform</li>
+      </ul>
+
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>PHP</span><span>Laravel</span><span>CodeIgniter</span>
+        <span>HTML</span><span>Bootstrap</span><span>JavaScript</span>
+        <span>Vue.js</span><span>Angular</span><span>MySQL</span>
+        <span>MongoDB</span><span>Firebase</span><span>Git</span>
+        <span>Docker</span><span>Cloud</span><span>Third-Party Integrations</span>
+      </div>
+    </main>
+  </body>
+</html>

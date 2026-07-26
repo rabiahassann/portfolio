@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="400" y2="500">
+      <stop stop-color="#0EA5E9"/>
+      <stop offset="0.5" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="face" x1="120" y1="80" x2="280" y2="320">
+      <stop stop-color="#E0F2FE"/>
+      <stop offset="1" stop-color="#C4B5FD"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" rx="28" fill="url(#bg)"/>
+  <circle cx="200" cy="175" r="78" fill="url(#face)" opacity="0.95"/>
+  <ellipse cx="200" cy="390" rx="130" ry="110" fill="url(#face)" opacity="0.95"/>
+  <text x="200" y="470" text-anchor="middle" fill="white" font-family="Inter, Arial" font-size="18" font-weight="600" opacity="0.85">Add your photo</text>
+</svg>
