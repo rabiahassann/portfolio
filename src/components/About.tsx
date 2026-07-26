@@ -35,7 +35,7 @@ export function About() {
               className="glass-card absolute -bottom-5 left-4 right-4 rounded-[20px] px-4 py-3 text-center sm:left-6 sm:right-6"
             >
               <p className="text-sm font-semibold text-white">
-                {profile.name} · {profile.role}
+                {profile.name}, {profile.role}
               </p>
               <p className="text-xs text-cyan-300">{profile.location}</p>
             </motion.div>
@@ -57,7 +57,7 @@ export function About() {
               initial="hidden"
               whileInView="show"
               viewport={{ once: true, margin: '-40px' }}
-              className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4"
+              className="mt-8 grid grid-cols-3 gap-3"
             >
               {stats.map((stat) => (
                 <motion.div

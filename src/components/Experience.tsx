@@ -13,7 +13,7 @@ export function Experience() {
         <SectionHeading
           eyebrow="My Journey"
           title="Work experience"
-          description="5+ years building and leading Laravel products — from developer to team lead across Pakistan and remote US teams."
+          description="4+ years building and leading Laravel products, from developer to team lead across Pakistan and remote US teams."
         />
 
         <motion.div
@@ -55,16 +55,9 @@ export function Experience() {
                         {job.location}
                       </p>
                     </div>
-                    <div className="flex flex-col items-end gap-2">
-                      <span className="rounded-[20px] bg-white/5 px-3 py-1 text-xs font-semibold text-muted">
-                        {job.period}
-                      </span>
-                      {job.current ? (
-                        <span className="rounded-[20px] bg-emerald-400/15 px-3 py-1 text-[10px] font-bold tracking-wide text-emerald-300 uppercase">
-                          Current
-                        </span>
-                      ) : null}
-                    </div>
+                    <span className="rounded-[20px] bg-white/5 px-3 py-1 text-xs font-semibold text-muted">
+                      {job.period}
+                    </span>
                   </div>
                   <p className="mt-3 text-sm leading-relaxed text-muted">
                     {job.description}

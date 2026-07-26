@@ -31,7 +31,7 @@ export function Footer() {
             </span>
           </a>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">
-            {profile.title} at Alpha Array Technologies — 5+ years building
+            {profile.title} with 4+ years building
             Laravel products, APIs, and e-commerce platforms.
           </p>
           <div className="mt-5 flex gap-2">
@@ -129,7 +129,7 @@ export function Footer() {
             © {new Date().getFullYear()} {profile.name} the Coder. All rights
             reserved.
           </p>
-          <p>Alpha Array Technologies · Laravel Team Lead</p>
+          <p>Laravel Team Lead</p>
         </div>
       </div>
     </footer>

@@ -60,7 +60,7 @@ export function Contact() {
         <SectionHeading
           eyebrow="Contact"
           title="Let's build something great"
-          description="Have a project in mind or just want to say hi? Drop a message — I usually reply within 24 hours."
+          description="Have a project in mind or just want to say hi? Drop a message. I usually reply within 24 hours."
         />
 
         <div className="mt-14 grid gap-8 lg:grid-cols-[1fr_1.2fr]">

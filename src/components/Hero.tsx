@@ -33,7 +33,7 @@ const codeLines = [
   { text: 'const rabia = {', color: 'text-purple-300' },
   { text: '  role: "The Coder",', color: 'text-cyan-300' },
   { text: '  stack: ["PHP", "Laravel", "Vue"],', color: 'text-sky-300' },
-  { text: '  experience: "5+ years Laravel",', color: 'text-indigo-300' },
+  { text: '  experience: "4+ years Laravel",', color: 'text-indigo-300' },
   { text: '  available: true,', color: 'text-emerald-300' },
   { text: '};', color: 'text-purple-300' },
 ]
@@ -63,7 +63,7 @@ export function Hero() {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-cyan-400" />
             </span>
             <Sparkles size={14} />
-            Working at Alpha Array Technologies
+            Available for remote roles
           </motion.div>
 
           <motion.h1
@@ -173,7 +173,7 @@ export function Hero() {
           </motion.a>
         </motion.div>
 
-        {/* Hero visual — no profile photo */}
+        {/* Hero visual */}
         <motion.div
           variants={scaleIn}
           initial="hidden"
@@ -274,10 +274,10 @@ export function Hero() {
               </span>
               <div>
                 <p className="text-sm font-semibold text-white">
-                  Currently building
+                  Building
                 </p>
                 <p className="text-xs text-muted">
-                  Laravel · Vue.js · PHP apps
+                  Laravel, Vue.js, PHP apps
                 </p>
               </div>
               <span className="ml-auto rounded-full bg-emerald-400/15 px-2.5 py-1 text-[10px] font-bold tracking-wide text-emerald-300 uppercase">

@@ -12,7 +12,7 @@ export function Skills() {
         <SectionHeading
           eyebrow="Skills"
           title="Tools in my toolkit"
-          description="PHP, Laravel, Vue.js, Angular — plus Git, Docker, Firebase, MySQL, and cloud integrations I use every day."
+          description="PHP, Laravel, Vue.js, Angular, plus Git, Docker, Firebase, MySQL, and cloud integrations I use every day."
         />
 
         <motion.div

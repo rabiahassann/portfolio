@@ -13,7 +13,7 @@ export function Projects() {
         <SectionHeading
           eyebrow="Projects"
           title="Live client work"
-          description="Real products I helped build and ship — with clear ownership, stack, and outcomes."
+          description="Real products I helped build and ship, with clear ownership, stack, and outcomes."
         />
 
         <motion.div
